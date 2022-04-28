@@ -25,9 +25,6 @@
 - name: Unarchive Maxmind GeoCity database
   unarchive: src={{ maxmind_db_download_dir }}/{{ maxmind_db_dir_name }}.zip dest={{ maxmind_db_download_dir }} copy=no
 
-- name: Rename unzipped geocity directory
-  shell: mv {{ maxmind_db_download_dir }}/{{ maxmind_db_unarchived_dir_prefix }} {{ maxmind_db_download_dir }}/{{ maxmind_db_dir_name }}
-  run_once: true
 
 - name: Download Maxmind GeoIP2 CSV Converter Program v1.0.0
   get_url: url={{ maxmind_geoip2_csv_converter_url }} dest={{ maxmind_db_download_dir }}/{{ maxmind_db_converter_archive_filename }} force=no
