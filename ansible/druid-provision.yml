@@ -48,8 +48,7 @@
                   port="{{ postgres.db_port }}" \
                   login_user="{{ postgres.db_admin_user }}" \
                   login_password="{{ postgres.db_admin_password }}" \
-                  db="{{ item.db }}" \
-                  encrypted= "yes"
+                  db="{{ item.db }}"
       with_items: "{{ postgresql_users }}"
 
 -
