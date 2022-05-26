@@ -5,7 +5,7 @@ maxmind_geoip2_csv_converter_url: "https://github.com/maxmind/geoip2-csv-convert
 maxmind_db_download_dir: /tmp
 maxmind_db_dir_name: "geoip2-city-csv"
 maxmind_db_converter_archive_filename: "geoip2-csv-converter-v1.0.0.tar.gz"
-maxmind_db_unarchived_dir_prefix: "GeoLite2-City-CSV_*"
+maxmind_db_unarchived_dir_prefix: "GeoLite2-ASN-CSV_20220419*"
 maxmind_db_geo_city_blocks_filename: "GeoLite2-City-Blocks-IPv4.csv"
 maxmind_db_geo_city_locations_filename: "GeoLite2-City-Locations-en.csv"
 maxmind_db_geo_city_ip_range_filename: "GeoLite2-City-Range-IPv4.csv"
